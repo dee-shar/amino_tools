@@ -5,7 +5,6 @@ Advanced automation toolkit for Amino apps with enhanced security and performanc
 ## Features ✨
 - Multi-account support
 - Rate-limited API calls
-- Comprehensive logging
 - Modular design for easy customization
 
 ## Installation (Termux) 📲
