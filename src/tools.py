@@ -221,5 +221,5 @@ async def run_service():
 		elif choice == 2:
 			await bulk_publish_wikis(sub_client)
 
-	elif choice == 0:
+	elif choice == 5:
 		exit()
