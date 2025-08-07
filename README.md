@@ -5,7 +5,6 @@ Advanced automation toolkit for Amino apps with enhanced security and performanc
 ## Features ✨
 - Multi-account support
 - Rate-limited API calls
-- Proxy integration
 - Comprehensive logging
 - Modular design for easy customization
 
@@ -32,9 +31,6 @@ pip install -r requirements.txt
 
 # 6. Run with safety checks
 python -O main.py --safe-mode
-
-# Run with proxy support
-python main.py --proxy socks5://user:pass@host:port
 
 # Use config file
 python main.py --config settings.ini
