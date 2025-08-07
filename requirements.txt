@@ -1,3 +1,2 @@
 amino.py
-sty
 tabulate
