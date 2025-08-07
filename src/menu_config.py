@@ -5,8 +5,7 @@ menu = [
 	[2, "Chat tools"],
 	[3, "Activity tools"],
 	[4, "Profile tools"],
-	[5, "Raiding tools"],
-	[6, "Exit"]
+	[5, "Exit"]
 ]
 
 chat_tools = [
