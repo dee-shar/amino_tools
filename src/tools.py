@@ -12,7 +12,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-async def login():
+async def login() -> None:
 	while True:
 		try:
 			email = input("Email: ")
@@ -22,7 +22,7 @@ async def login():
 		except Exception as exception:
 			logger.error(exception)
 
-async def get_communities():
+async def get_communities() -> int:
 	while True:
 		try:
 			clients = await client.sub_clients(start=0, size=100)
@@ -33,7 +33,7 @@ async def get_communities():
 		except Exception as exception:
 			logger.error(exception)
 
-async def get_chats(sub_client: amino.AsyncSubClient):
+async def get_chats(sub_client: amino.AsyncSubClient) -> int:
 	while True:
 		try:
 			chats = await sub_client.get_chat_threads(size=100)
